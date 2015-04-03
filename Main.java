@@ -445,6 +445,7 @@ class Wood extends PlateD {}
 
 // Data Type
 abstract class PizzaD {
+    // Visitor Objects
     RemoveAnchoviesV remFn = new RemoveAnchoviesV();
     TopAnchovyWithCheeseV topFn = new TopAnchovyWithCheeseV();
     SubstituteAnchovyByCheeseV subFn = new SubstituteAnchovyByCheeseV();
